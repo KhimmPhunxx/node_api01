@@ -31,6 +31,24 @@ INSERT INTO `cate_per`( `namae`, `image`)
 VALUES ('Bàn di chuột', 'ban-di-chuot.jpg');
 
 
+INSERT INTO `pc_sets`( `cate_pc_set_id`, `name`, `price`, `image`) 
+VALUES (1, 'PC Gaming', 14990000, 'pc-gaming.jpg');
+
+
+
+INSERT INTO `cate_pc_sets`( `name`, `image`) 
+VALUES ('PC Gaming', 'pc-gaming.jpg');
+
+
+INSERT INTO `second_hand`(`name`, `price`, `description`, `image`)
+ VALUES ('Dell Inspiron 15 3505', 10990000, 'Dell Inspiron 15 3505', 'dell-inspiron-15-3505.jpg');
+
+
+
+
+
+
+
 
 
 
